@@ -1,9 +1,7 @@
-import postcssNested from 'postcss-nested';
-import autoprefixer from 'autoprefixer';
-
+// filepath: postcss.config.js
 export default {
-    plugins: [
-        postcssNested,
-        autoprefixer,
-    ],
-};
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  }
