@@ -6,7 +6,7 @@ const dotenv = require('dotenv');
 // database connection
 const connectDB=async()=>{
     try{
-        await mongoose.connect(process.env.MONGO_URL)
+        await mongoose.connect()
         console.log("database is connected successfully!")
 
     }
@@ -15,7 +15,7 @@ const connectDB=async()=>{
     }
 }
 
-dotenv.config();
+
 connectDB()
 app.listen(5000, () => {
     console.log('Server is running on port 5000');
