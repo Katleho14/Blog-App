@@ -2,7 +2,10 @@ import { Link } from 'react-router-dom'
 
 const Login = () => {
   return (
-    <div className="w-full flex justify-center items-center h-[70vh]">
+
+<>
+
+<div className="w-full flex justify-center items-center h-[70vh]">
 <div className="flex flex-col justify-center items-center space-y-4 w-[80%] md:w-[25%]">
 <h1 className="text-xl font-bold text-left">Login In To Your Account</h1>
 <input className="w-full px-4 py-2 border-2 border-black outline-0" type="text" placeholder="Enter your email" />
@@ -14,6 +17,10 @@ const Login = () => {
 </div>
 </div>
     </div>
+  
+</>
+
+ 
   )
 }
 
